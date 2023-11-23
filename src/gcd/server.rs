@@ -6,7 +6,7 @@ use crate::gcd::gcd;
 #[derive(Deserialize)]
 struct GcdParams {
   m: u64,
-  n: u64
+  n: u64,
 }
 
 pub async fn run() {
